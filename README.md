@@ -1,4 +1,5 @@
 Image Compression Using K-Means Clustering
+
 Introduction
 
 Image compression plays a crucial role in reducing storage requirements and improving transmission speed over the internet. With the growing number of high-resolution images, efficient compression techniques are necessary to save space without significantly affecting visual quality.
@@ -9,6 +10,7 @@ How K-Means Clustering Works in Image Compression
 K-Means clustering divides image pixel data into a predefined number of clusters (K) based on similarity between color values. Each pixel is assigned to the nearest centroid, and its color is replaced with that centroid’s color, reducing the overall number of unique colors in the image.
 
 Detailed Algorithm Steps
+
 1. Image Preprocessing
 
 The input image is loaded and converted into a NumPy array.
@@ -94,13 +96,21 @@ Landscape
 
 CIFAR-10 images
 can be used.
+
 KMeans_Image_Compression/
+
    ├── imageapp.py
+
    ├── proof.py
+   
    ├── requirements.txt
+   
    ├── sample_images/
+   
    ├── README.md
+   
    └── results/
+
 Getting Started
 Requirements
 
