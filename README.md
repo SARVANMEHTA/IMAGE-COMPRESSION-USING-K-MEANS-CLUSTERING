@@ -94,8 +94,6 @@ Landscape
 
 CIFAR-10 images
 can be used.
-
-Repository Structure
 KMeans_Image_Compression/
    ├── imageapp.py
    ├── proof.py
@@ -103,7 +101,6 @@ KMeans_Image_Compression/
    ├── sample_images/
    ├── README.md
    └── results/
-
 Getting Started
 Requirements
 
@@ -155,15 +152,3 @@ WCSS (Within-Cluster Sum of Squares) proves optimization.
 Palette images display reduced dominant colors.
 
 Cluster overlays visualize pixel grouping.
-
-References
-
-Pandey, S. et al. (2021), Image Compression Using K-Means Clustering
-
-Kumar, R. et al. (2019), Color Quantization Techniques
-
-Scikit-learn Documentation
-
-OpenCV Documentation
-
-Image Processing Fundamentals — Gonzalez & Woods
